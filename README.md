@@ -43,7 +43,7 @@ Before running this script, make sure you have:
 2. A Cloudflare account with API token permissions for updating DNS records. (explanation below)
 3. A (paid or free) DNS record in your Cloudflare that you want to update dynamically.
 
-## Setup Instructions ( skip to 3 if you already have the zoneId , recordId and apiToken  )
+## Setup Instructions **( skip to 3 if you already have the zoneId , recordId and apiToken  )**
 
 ### 1. Get Your Cloudflare API Token
 
