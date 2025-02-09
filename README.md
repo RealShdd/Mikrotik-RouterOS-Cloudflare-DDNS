@@ -211,6 +211,7 @@ This is now saved in the system/scripts to run the script periodically :
 
 ## Notes
 
+- sometimes it might take a while for new ip to be replaced by old one and the domain might resolve to the old ip (depending on you setup , dns , isp dns cache ... )
 - Ensure your Cloudflare API token has the right permissions.
 - Some ISPs provide a private IP instead of a public IP—verify with `whatismyip`.
 - If your IP changes frequently, run the script more often.
