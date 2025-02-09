@@ -99,7 +99,7 @@ Before running this script, make sure you have:
 
 2. Navigate to **System > Scripts**.
 
-3. Create a new script and paste the following code:
+3. Create a new script and paste the following code:**(just make sure you change the values)**
 
    ```routeros
    # RouterOS Script .rsc
