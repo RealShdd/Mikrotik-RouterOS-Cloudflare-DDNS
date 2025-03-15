@@ -201,6 +201,9 @@ This is now saved in the system/scripts to run the script periodically :
 
 ## Testing & Troubleshooting
 
+- **Make sure you have at least one working DNS server on your router by checking /ip/dns (obviously you need it for domain resolution)**
+- `#if not use the following :`
+- `/ip dns set servers=1.1.1.1,1.0.0.1,9.9.9.9`
 - **Test manually** by running the script from **System > Scripts**.&#x20;
 - `/system script run Cloud-Flare-DNS-Updater;`
 - **Check logs** under **Log** to debug issues.
